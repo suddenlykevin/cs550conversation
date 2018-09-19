@@ -1,6 +1,8 @@
 # Conversation by Kevin Xie
-# CS550
+# CS550 09/18/2018
 # Asks and responds to questions (bonus storyline!)
+# sources: time delays https://www.pythoncentral.io/pythons-time-sleep-pause-wait-sleep-stop-your-code/
+#		   "checking" that string is a digit https://stackoverflow.com/questions/21388541/how-do-you-check-in-python-whether-a-string-contains-only-numbers
 
 import time #used for brief pauses that add a "human touch" to the conversation
 
