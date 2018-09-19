@@ -3,6 +3,7 @@
 # Asks and responds to questions (bonus storyline!)
 # sources: time delays https://www.pythoncentral.io/pythons-time-sleep-pause-wait-sleep-stop-your-code/
 #		   "checking" that string is a digit https://stackoverflow.com/questions/21388541/how-do-you-check-in-python-whether-a-string-contains-only-numbers
+#		   quotations in quotations https://stackoverflow.com/questions/9050355/using-quotation-marks-inside-quotation-marks
 
 import time #used for brief pauses that add a "human touch" to the conversation
 
@@ -84,7 +85,8 @@ def formatDisk(name):
 		print("Thank you.")
 		shutdown()
 	else:
-		print("I knew you couldn't do it! What is this, \""+formatResponse+"\"? "+name+"! You are a coward!")
+		print("I knew you couldn't do it! What is this, \""+formatResponse+"\"? "+name+"! You are a coward!") # quotations in quotations https://stackoverflow.com/questions/9050355/using-quotation-marks-inside-quotation-marks
+
 		time.sleep(3)
 		print(">>> format disk")
 		time.sleep(0.5)
